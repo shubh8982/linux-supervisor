@@ -4,7 +4,7 @@ this repo helps in installing and running supervisor on Linux server for Laravel
 Supervisor is a process manager that runs in the background and continues to manage your Laravel queue worker process even when your terminal is closed. 
 Once you configure Supervisor to manage the php artisan queue:work command, it becomes a daemon process that runs independently of your terminal session.
 
-**#Here's how it works:**
+**Here's how it works:**
 
 When you start the Supervisor-managed queue worker using the **sudo supervisorctl start laravel-worker:***
 command, Supervisor spawns the worker processes in the background.
