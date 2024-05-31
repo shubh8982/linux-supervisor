@@ -55,3 +55,10 @@ command, Supervisor spawns the worker processes in the background.
 Supervisor monitors these processes, automatically restarting them if they exit unexpectedly or crash.
 
 Even if you close your terminal or log out, Supervisor continues to run as a system service, ensuring that your queue worker remains active.
+
+
+# To check Configurative error
+```bash
+sudo /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf
+```
+
